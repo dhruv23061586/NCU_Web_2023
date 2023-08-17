@@ -1,0 +1,52 @@
+#item1{
+    color: #995656;
+    background-color: aquamarine;
+    font-weight: 500;
+}
+#item2{
+    color: #772b2b;
+    background-color: rgb(52, 122, 99);
+    font-weight: 500;
+}
+#item3{
+    color: #a27b7b;
+    background-color: rgb(31, 63, 52);
+    font-weight: 500;
+}
+#item4{
+    color: #544646;
+    background-color: rgb(7, 27, 20);
+    font-weight: 500;
+}
+#item5{
+    color: #bd4848;
+    background-color: rgb(5, 28, 21);
+    font-weight: 500;
+}
+#item6{
+    color: #972525;
+    background-color: rgb(0, 28, 19);
+    font-weight: 500;
+}
+#item7{
+    color: #c61c1c;
+    background-color: rgb(13, 58, 43);
+    font-weight: 500;
+}
+
+.A{
+    color: blueviolet;
+    background-color: burlywood;
+}
+.B{
+    color: rgb(55, 12, 95);
+    background-color: rgb(167, 110, 37);
+}
+.A{
+    color: rgb(29, 13, 44);
+    background-color: rgb(148, 130, 107);
+}
+.A{
+    color: rgb(76, 28, 121);
+    background-color: rgb(116, 86, 48);
+}
