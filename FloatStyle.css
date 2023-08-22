@@ -1,0 +1,23 @@
+.left{
+    float: left;
+    background-color: blueviolet;
+}
+.right{
+    float: right;
+    background-color: aquamarine;
+}
+
+.row{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.w1{
+    height: 200px;
+    width: 50%;
+}
+.w2{
+    height: 200px;
+    width: 25%;
+}
