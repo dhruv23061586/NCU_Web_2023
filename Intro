@@ -1,0 +1,40 @@
+Html 4 ==> static
+Html 5 ==> dynamic    //mostly recommended nowadays
+
+Div --> most common tag --> used to create every [partition]
+
+
+How html5 makes pages dynamic?
+what makes it dynamic
+js --> makes the thing in the web dynamic
+it partially based on js
+
+static features of html5
+	1. semantics   
+	2. Form elements and attributes
+	3. Multimedia --> audio / video
+	4. Pictures
+	5. SVG
+	they don't need any js
+
+dynamic features of html5
+	1. localstorage
+	2. geolocation
+	3. web workers
+	4. drag and drop
+	5. canvas
+	6. offline pages
+==================================================
+
+Semantics Code:
+
+header
+footer
+aside
+nav
+section
+article --> could be a parent of section or can be a child
+figure --> to contain image
+figcaption
+mark
+summary
