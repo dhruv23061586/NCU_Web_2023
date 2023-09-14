@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Elements</h1>
+    <form action="#">
+        <table>
+            <tr>
+                <td>Enter Name</td>
+                <td>
+                    <input type="text" placeholder="Enter Name" autofocus value="User" readonly disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Email Id</td>
+                <td>
+                    <input type="email" placeholder="Enter Email" required value="user@gmail.com" autocomplete="off">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td>
+                    <input type="text" placeholder="Enter Password" required>
+                </td>
+            </tr>
+            
+            <!-- --------------------------------------------------------------------------- -->
+
+            <!-- Date Time Week Year -->
+            <tr>
+                <td>Enter DOB</td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter Time</td>
+                <td>
+                    <input type="time">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter Date And Time</td>
+                <td>
+                    <input type="datetime-local">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter Month</td>
+                <td>
+                    <input type="month">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter Week</td>
+                <td>
+                    <input type="week">
+                </td>
+            </tr>
+
+            <!-- ----------------------------------------------------------------------------->
+
+            <!-- Numbers and URL -->
+            <!-- min max -->
+
+            <tr>
+                <td>Enter Age</td>
+                <td>
+                    <input type="number" placeholder="Enter age" min="18" max="50">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter URL</td>
+                <td>
+                    <input type="url" placeholder="URL">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Search Here</td>
+                <td>
+                    <input type="search" placeholder="Search Here........">
+                </td>
+            </tr>
+
+            <!-- ----------------------------------------------------------------------------->
+            <!-- Range and Progress -->
+
+            <tr>
+                <td>Select Range</td>
+                <td>
+                    <input type="range" value="0" min="0" max="100" step="10" onchange="op.value=value">
+                </td>
+                <td>
+                    <output id="op">0</output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Your Profile Progress</td>
+                <td>
+                    <progress max="100" value="50"></progress>
+                </td>
+            </tr>
+            <!-- ----------------------------------------------------------------------------->
+            <!-- Pattern Regex -->
+            <!-- Regex -- Regular Expresiion -->
+            <!-- visit regex.com  -->
+
+            <tr>
+                <td>Enter Vehicle Details</td>
+                <td>
+                    <input type="text" placeholder="Vehicle Number....." pattern="[a-z]{4}" title="Enter 4 small char and 2-3 nums and a single symbol">
+                    <!-- pattern="[a-z]{4}[1-9]{2,4}[|!|@|#|$|%|&]{1}" -->
+                </td>
+            </tr>
+
+            <!-- try and find out distinct the thing for card details -->
+
+            <!-- ----------------------------------------------------------------------------->
+            <!-- TextArea -->
+
+            <tr>
+                <td>Enter Message</td>
+                <td>
+                    <textarea cols="30" rows="10" placeholder="Enter Your Message" spellcheck="true"></textarea>
+                </td>
+            </tr>
+            
+            <!-- the text area is resizeable use css -->
+            <!-- ----------------------------------------------------------------------------->
+
+            <!-- RESET BUTTON -->
+
+
+            <tr>
+                <td>
+                    <input type="reset">
+                </td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+
+           
+        </table>
+    </form>
+</body>
+</html>
+

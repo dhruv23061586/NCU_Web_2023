@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Global Attribute</h1>
+    <!-- data-id and id are different
+    data-id can be data-movie-id or data-item-id etc -->
+    <ul>
+        <li data-id="101">Avengers : Age of Ultron</li>
+        <li data-id="102">Avengers : Infinity War</li>
+        <li data-id="103">Avengers : Endgame</li>
+    </ul>
+
+    <!-- Similarly -->
+    <!-- <img src="" data-x="" data-y="" data-parent="" alt=""> -->
+
+    <div itemscope itemtype="http://www.movies.com/thor" itemid="movie-101">
+        <h2 itemprop="name">Thor : Love and Thunder</h2>
+        <p>
+            Director : <span itemprop="director">Name of Director</span>
+        </p>
+        <p itemprop="genre">Genre: Action, Comedy</p>
+        <a href="#" itemprop="movieCast">Read About Cast</a>
+    </div>
+</body>
+</html>
