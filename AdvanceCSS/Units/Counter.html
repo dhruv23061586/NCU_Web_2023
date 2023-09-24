@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            /* defining a  variable like u want to name counter as section */
+            counter-reset: heading;
+        }
+        h2::after{
+            counter-increment: heading;
+            content: " Section " counter(heading);
+            /* content: " Section_" counter(section); */
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Counter() Function</h1>
+
+    <section id="section_1">
+        <h2>This is</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem corporis,
+        asperiores eligendi aut enim odio ad deserunt quos fugiat distinctio
+        quas illo veritatis minus totam corrupti! Similique iure nostrum
+        obcaecati.
+      </p>
+    </section>
+    <section id="section_2">
+        <h2>This is</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem corporis,
+        asperiores eligendi aut enim odio ad deserunt quos fugiat distinctio
+        quas illo veritatis minus totam corrupti! Similique iure nostrum
+        obcaecati.
+      </p>
+    </section>
+    <section id="section_3">
+        <h2>This is</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem corporis,
+        asperiores eligendi aut enim odio ad deserunt quos fugiat distinctio
+        quas illo veritatis minus totam corrupti! Similique iure nostrum
+        obcaecati.
+      </p>
+    <section id="section_4">
+        <h2>This is</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem corporis,
+        asperiores eligendi aut enim odio ad deserunt quos fugiat distinctio
+        quas illo veritatis minus totam corrupti! Similique iure nostrum
+        obcaecati.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem corporis,
+        asperiores eligendi aut enim odio ad deserunt quos fugiat distinctio
+        quas illo veritatis minus totam corrupti! Similique iure nostrum
+        obcaecati.
+      </p>
+    <section id="section_4">
+        <h2>This is</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem corporis,
+        asperiores eligendi aut enim odio ad deserunt quos fugiat distinctio
+        quas illo veritatis minus totam corrupti! Similique iure nostrum
+        obcaecati.
+      </p>
+    </section>
+  </body>
+</html>
