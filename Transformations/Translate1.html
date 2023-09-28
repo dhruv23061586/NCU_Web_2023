@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 350px;
+            /* border: 1px solid red; */
+        }
+
+        /* u want to slide image from left to right */
+        div:hover img{
+            /* transform: translateX(1000px); */
+            /* for sliding smoothness give img transition */
+            /* transform: translateY(500px); */
+            transform: translate(500px, 200px);
+        }
+        img{
+            transition-duration: 6s;
+            /* now try for y */
+        }
+    </style>
+</head>
+<body>
+    <h1>TransFormations : Translate</h1>
+    <div>
+        <img src="https://phoneky.co.uk/thumbs/screensavers/down/cartoon-anime/hulkwalkfo_1yq97x1k.gif" alt="">
+    </div>
+</body>
+</html>

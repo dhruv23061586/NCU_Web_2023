@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 5px solid maroon;
+        }
+
+        img{
+            /* animation-name: anim_1;
+            animation-duration:5s ;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 2s; */
+
+            animation: anim_1 5s infinite 2s;
+        }
+
+        @keyframes anim_1 {
+            0%{
+                transform: translateX(0px);
+            }
+            50%{
+                transform: translateX(1000px) rotateY(180deg);
+            }
+            100%{
+                transform: translateX(0px) rotateY(180deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://phoneky.co.uk/thumbs/screensavers/down/cartoon-anime/hulkwalkfo_1yq97x1k.gif" alt="">
+    </div>
+</body>
+</html>
